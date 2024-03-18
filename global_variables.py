@@ -66,15 +66,15 @@ class GlobalVariables(Enum):
     """
 
     # Bot related variables
-    BOT_API_ID: str = "----"  # From telegram id handler
-    BOT_API_HASH: str = "----------------------------"  # from telegram id handler
-    BOT_API_TOKEN: str = "---------------------------------"  # from bot father
+    BOT_API_ID: str = "24677256"  # From telegram id handler
+    BOT_API_HASH: str = "ef4f700f61fd3e6dac816738d62ba375"  # from telegram id handler
+    BOT_API_TOKEN: str = "6354054864:AAGYn7wFkmTiiesJxhhtc6QNjndEOeb3LpI"  # from bot father
     PLATFORM: str = platform.system().lower()
 
     # Auther and bot version related variables
-    BOT_AUTHORS: str = "@RULEROFCODES & @reverse_master"
+    BOT_AUTHORS: str = "@ELPAPPA1 & @KawKabMod"
     BOT_AVAILABILITY: str = "FREE_ALPHA_VERSION"
-    BOT_NAME: str = "@reverse_master_bot"
+    BOT_NAME: str = "@CodingK_bot"
     BOT_VERSION: float = 0.7
 
     # Temporary Directories related variables
@@ -230,11 +230,11 @@ class GlobalVariables(Enum):
                             "Kindly reach out to the developer for more information regarding the error. "
     HELP_KEYBOARD_MENU: list = [
         [
-            ('Telegram Channel', 'https://t.me/RulerKingCodes', 'url'),
-            ('ReverseMaster', 'https://t.me/reverse_master', 'url')
+            ('Telegram Channel', 'https://t.me/KawkabMod', 'url'),
+            ('ReverseMaster', 'https://t.me/ELPAPPA1', 'url')
         ],
         [
-            ('RULEROFCODES', 'https://t.me/RULEROFCODES', 'url')
+            ('RULEROFCODES', 'https://t.me/ELPAPPA1', 'url')
         ],
     ]
 
